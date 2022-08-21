@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="home"
+        android:icon="@drawable/homebtn_navbar"
+        android:id="@id/homescreenFragment"/>
+    <item
+        android:title="ticket"
+        android:icon="@drawable/ticketbtn_navbar"
+        android:id="@id/ticketFragment"/>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/profilebtn_navbar"
+        android:id="@id/profileFragment"/>
+</menu>

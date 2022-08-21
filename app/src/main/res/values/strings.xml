@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MOV</string>
+
+    <!-- button-->
+    <string name="skip_intro">skip</string>
+    <string name="continue_intro">continue</string>
+    <string name="register">Register New Account</string>
+
+    <string name="film_title_1">American Psycho</string>
+    <string name="film_title_2">John Wick</string>
+    <string name="film_title_3">Goodfellas</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Title Textview -->
+    <string name="wallet">Balance</string>
+    <string name="history">History</string>
+    <string name="movie_history_count">0 Movies</string>
+
+    <!-- onboarding -->
+    <string name="now_playing_title">Now Playing</string>
+    <string name="now_playing_desc">See all of the brand new\n Blockbuster!</string>
+    <string name="coming_soon_title">Coming Soon</string>
+    <string name="coming_soon_desc">Look out for some upcoming movies!</string>
+    <string name="cashless_title">Cashless</string>
+    <string name="cashless_desc">Pay with your favorite\n digital wallet!</string>
+
+    <!-- sign in -->
+    <string name="login">Sign In</string>
+    <string name="loginbtn">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!--sign up -->
+    <string name="signup">Sign Up</string>
+    <string name="Email">Email</string>
+    <string name="Name">Name</string>
+    <string name="Back">Back</string>
+
+    <!-- homescreen -->
+    <string name="wallet_balance">Rp 150.000</string>
+    
+    <!-- Movie Detail -->
+    <string name="synopsis">Synopsis</string>
+    <string name="movie_detail3">Director: Martin Scorcesse\nAction/Drama\nRated R</string>
+    <string name="synopsis_movie3">Young Henry Hill, with his friends Jimmy and Tommy,\nbegins the climb from being a petty criminal to a\ngangster on the mean streets of New York.</string>
+    <string name="casting">Casting</string>
+    <string name="pickseat">Pick Seat</string>
+    
+    <!-- Pick Seat -->
+    <string name="screen">Screen</string>
+    <string name="empty_seat">Empty</string>
+    <string name="booked_seat">Booked</string>
+    <string name="selected_seat">Selected</string>
+    <string name="buy_ticket">Buy Ticket</string>
+
+    <!-- Checkout -->
+    <string name="checkout">Checkout</string>
+    <string name="date_time">Date/Time</string>
+    <string name="theater_place">Place</string>
+    <string name="seat_number">A1</string>
+    <string name="price">Rp 0</string>
+    <string name="total">Total</string>
+    <string name="total_price">Rp 0</string>
+    <string name="continue_payment">Continue Payment</string>
+    <string name="balance">Balance</string>
+    <string name="topup_balance">Topup Balance</string>
+
+    <string name="edit_profile">Edit Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

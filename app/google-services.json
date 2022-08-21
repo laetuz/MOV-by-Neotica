@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716822273790",
+    "project_id": "mov-neotica",
+    "storage_bucket": "mov-neotica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716822273790:android:34b4086063a9f7372f8faf",
+        "android_client_info": {
+          "package_name": "neotica.movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716822273790-pmv28csl8ku4vuj1csb96dcd5u6ekkva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdbrWGnkj5ErIPzbo6dUC6rVH9qH4pRLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716822273790-pmv28csl8ku4vuj1csb96dcd5u6ekkva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

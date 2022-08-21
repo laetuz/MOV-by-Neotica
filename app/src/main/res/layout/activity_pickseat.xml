@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mov1"
+    tools:context=".homescreen.Detail">
+
+
+    <LinearLayout
+        android:id="@+id/row_e"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_d">
+
+        <ImageView
+            android:id="@+id/seat_e1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_e2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_e3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_e"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="E"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_e4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_e5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_e6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_d"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_c">
+
+        <ImageView
+            android:id="@+id/seat_d1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_d2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_d3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_d"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="D"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_d4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_d5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_d6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_c"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_b">
+
+        <ImageView
+            android:id="@+id/seat_c1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_c2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_c3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_c"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_c4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_c5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_c6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_b"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_a">
+
+        <ImageView
+            android:id="@+id/seat_b1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_b2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_b3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_b"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="B"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_b4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_b5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_b6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_a"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+        <ImageView
+            android:id="@+id/seat_a1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_a2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_a3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_a"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_a4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_a5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_a6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/shape_rectangle_light"
+        android:text="@string/buy_ticket"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/film_title_3"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/empty_seat"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/booked_seat"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/selected_seat"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/screen"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/pickseat"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/line2" />
+
+    <LinearLayout
+        android:id="@+id/row_f"
+        android:layout_width="397dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_e">
+
+        <ImageView
+            android:id="@+id/seat_f1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_f2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_f3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <TextView
+            android:id="@+id/text_f"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="F"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/seat_f4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_f5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <ImageView
+            android:id="@+id/seat_f6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle26"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row_f"
+        app:srcCompat="@drawable/rectangle26" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/rectangle28" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/rectangle29" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
